@@ -1,0 +1,128 @@
+/* Apply global styles by using and * */
+* {
+    margin: 0;
+    padding: 0px;
+}
+/* Styles for index.html*/
+body, html {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #8c8c8c;
+    /* Make sure margins are 0 and centered  */
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 5.5vh;
+    background-color: #786e96;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.navname {
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    background-color: yellow;
+}
+
+.nav-list {
+    float: right;
+}
+
+.navpic {
+    float: left;
+    display: inline-flex;
+    margin-top: 0.25vh;
+}
+
+.herotext {
+    font-family: 'Roboto Condensed', sans-serif;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.heroimage1 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.postimg.cc/bwTD4qyd/xcomheroimage.png");
+border-bottom: 3vh solid #786e96;
+    /* Set a specific height */
+height: 50vh;
+    /* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+
+}
+
+.heroimage2 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.postimg.cc/bwTD4qyd/xcomheroimage.png");
+border-bottom: 3vh solid #786e96;
+    /* Set a specific height */
+height: 50vh;
+    /* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: sticky;
+
+}
+
+.list-item {
+    color: white;
+    background-color: gray;
+    display: inline-block;
+    list-style-type: none;
+    margin: 5px 20px 0px 10px;
+    padding: 3px;
+}
+.list-item:hover {
+    background-color: violet;
+    color: black;
+    border: 3px dashed white;
+    padding: 0px;
+}
+
+.newstext {
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+    float: left;
+    margin: 20px 60px 20px 60px;
+    text-align: justify;
+}
+
+.newsimage {
+    display:inline-flex;
+    float: left;
+    border: 5px solid greenyellow;
+    margin: 0px 30px 20px 0px;
+}
+
+.headlinetext {
+    font-size: 32px;
+}
+
+.bodytext {
+    margin-top: 50px;
+}
+
+.footerbar {
+    width: 100%;
+    height: 3vh;
+    background-color: #786e96;
+    float: left;
+}
+
+.returntop {
+    margin-left: 50%;
+}
